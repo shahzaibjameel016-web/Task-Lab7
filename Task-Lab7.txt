@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+void printTable(int a,int b,int n){
+    for(int i=a;i<=b;i++){
+        cout<<n<<"*"<<i<<"="<<n*i;
+        cout<<endl;
+       
+    }
+}
+
+int main() {
+    int x,y;
+    cout<<"enter range from starting\n";
+    cin>>x;
+    cout<<"enter range of ending number\n ";
+    cin>>y;
+   int num;
+   cout<<"Please enter a number :";
+   cin>>num;
+   printTable(x,y,num);
+    return 0;
+}
